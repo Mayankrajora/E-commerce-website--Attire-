@@ -1,2 +1,2 @@
 # MyProject
-E-commerce Front-end website using HTML, CSS, Bootstrap .
+E-commerce Front-end website using HTML, CSS, Bootstrap and JavaScript
