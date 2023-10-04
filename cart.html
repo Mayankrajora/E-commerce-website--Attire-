@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <!--  BOOTSTRAP CSS LINK   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ATTIRE</title>
+</head>
+<body>
+   <!-- Navigation bar Start -->
+   <section id="header">
+        <nav class="navbar navbar-expand-lg bg-secondary py-2 fixed-top">
+            <div class="container ">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="image/logo.png" class="img-fluid">ATTIRE
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./special.html"><b>Special</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html"><b>Contact</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: blue;" href="./cart.html"><b>Cart</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./loginreg.html"><b>Login</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Navigation bar End -->
+    
+
+    <!-- Cart Start Here -->
+    <div class="container" style="padding-top: 100px;">
+        <div class="card mb-3" style="max-width: 1000px">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="image/t-shirts/t2.png" class="img-fluid rounded-start" alt="IMGTXT">
+                    <button onclick="addtocart()" class="btn btn-primary ms-5 mt-5" >Add to cart</button>
+                    <button onclick="addtocart()" class="btn btn-primary ms-5 mt-5">Buy Now</button>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">PUMA</h5>
+                        <p class="card-text">This Essentials Tee is a classic that's ready to take your casual look to the next level. Eye-catching PUMA branding and 100% cotton fabrication make it a cut above the rest.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <p style="color: green;">Special price</p>
+                        <h3><b>Rs.599</b><h6><span style="color: green;">50% off</span></h6></h3>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i><br>
+                        <div class="text-muted mt-2"> Choose Size
+                            <button class="btn ">S</button>
+                            <button class="btn ">M</button>
+                            <button class="btn ">L</button>
+                            <button class="btn ">XL</button>
+                            <button class="btn ">XXL</button>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-tag" style="color: rgb(10, 180, 52);"></i><span> <b>Special Price </b>Get at flat Rs.599 </span><a href="#!" class="link-info">T&C</a><br>
+                            <i class="fa-solid fa-tag" style="color: rgb(10, 180, 52);"></i><span> <b>Bank Offer </b> Rs.250 Off on HDFC Bank Credit Card EMI Trxns on orders priced between Rs.1,000 to Rs.2,999</span><a href="#!" class="link-info">T&C</a><br>
+                            <i class="fa-solid fa-tag" style="color: rgb(10, 180, 52);"></i><span> <b>Bank Offer </b> Rs.3,000 Off on HDFC Bank Credit Card EMI Trxns on orders priced between Rs.10,000 to Rs.20,999</span><a href="#!" class="link-info">T&C <br>+5 more offers</a><br>
+                        </div>
+                        <div class="text-muted mt-2">
+                            <i class="fa-solid fa-location-dot" style="color: yellowgreen;"></i><span> Deliver to<br> Enter delivery pincode</span><br>
+                            <input type="number" maxlength="7" placeholder="pincode">
+                        </div>
+                        <div class=" mt-4">
+                            <h3>Ratings & Reviews</h3>
+                            <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                            <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                            <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                            <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                            <i class="fa-solid fa-star" style="color: #e19f2d;"></i><span class="text-muted">243 ratings and 147 reviews</span>
+                            <button class="btn btn-info ms-5">Rate Product</button>
+                        </div>
+                        <div class="mt-3">
+                            <p><b>What our costumer felt:</b></p>
+                            <i class="fa-regular fa-face-smile"></i>
+                            <button class="btn"> Feel good</button>
+                            <button class="btn"> Fabric</button>
+                            <button class="btn"> Color</button>
+                            <button class="btn"> Style</button><br>
+                            <button class="btn"> Comfort</button>
+                            <button class="btn"> Stiching Quality</button>
+                        </div>
+                        <div class="mt-2 border-top">
+                            <h2 class="mt-2 border-top"><b>Questions & Answers :</b></h2>
+                            <h4>Q:is the locket included?</h4>
+                            <p>A:No only the tshirt</p>
+                            <h4 class="mt-2 border-top">Q:Is this t shirt is the boys meme</h4>
+                            <p>A:Its is for men</p>
+                            <h4 class="mt-2 border-top">Q:I am 15+years old which size is fit for me</h4>
+                            <p>A:S size</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!-- Cart End Here -->
+
+
+    <!-- Footer Section -->
+    <div class="container bg-secondary">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 ATTIRE, Inc</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ">
+                <a class="m-3" href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                <a class="m-3" href="https://twitter.com/"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                <a class="m-3" href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            </ul>
+        </footer>
+    </div>
+    <!-- Footer Section -->
+
+    <!-- BOOTSTRAP SCRIPT LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <!-- My JS File link -->
+    <script src="myscript.js"></script>
+
+</body>
+</html>

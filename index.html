@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <!--  BOOTSTRAP CSS LINK   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ATTIRE</title>
+</head>
+<body>
+    <!-- Navigation bar Start -->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg bg-secondary py-2 fixed-top">
+            <div class="container ">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="image/logo.png" class="img-fluid">ATTIRE
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" style="color: blue;" href="./index.html"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./special.html"><b>Special</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html"><b>Contact</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cart.html"><b>Cart</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./loginreg.html"><b>Login</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Navigation bar End -->
+
+    <!-- Home Section Start Carousel -->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide mb-3" style="padding-top: 90px;"  data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <h2><div id="clock" class="text-center"></div></h2>
+                <div class="carousel-item active">
+                    <img src="image/Banner/b4.jpg" class="d-block w-100" alt="imtext" height="700px">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/Banner/img3.jpg" class="d-block w-100" alt="imtext" height="700px">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/Banner/img5.jpg" class="d-block w-100" alt="imtext" height="700px">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Home Section End Carousel-->
+
+    <!-- Product Category Section Start -->
+    <div class="container">
+        <div class="row text-center mb-3">
+            <h1>Products</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mt-2">
+                <div class="card">
+                    <img src="image/t-shirts/t1.png" class="card-img-top" alt="imtext">
+                    <div class="card-body">
+                        <h5 class="card-title">PUMA</h5>
+                        <p class="card-text">Designer T-shirts <b>Starting from Rs.799/-/-</b></p>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <br>
+                        <a href="t-shirts.html" class="btn btn-primary">Click to explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-2">
+                <div class="card">
+                    <img src="image/jeans/j1.png" class="card-img-top" alt="imtext">
+                    <div class="card-body">
+                        <h5 class="card-title">MONTE CARLO</h5>
+                        <p class="card-text">Designer Jeans <b>Starting from Rs.1499/-</b></p>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <br>
+                        <a href="jeans.html" class="btn btn-primary">Click to explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-2">
+                <div class="card">
+                    <img src="image/shirts/s1.png" class="card-img-top" alt="imtext">
+                    <div class="card-body">
+                        <h5 class="card-title">INDIAN GARAGE</h5>
+                        <p class="card-text">Designer Shirts <b>Starting from Rs.899/-</b></p>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <br>
+                        <a href="shirts.html" class="btn btn-primary">Click to Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-2">
+                <div class="card">
+                    <img src="image/lower/l1.png" class="card-img-top" alt="imtext">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p class="card-text">Designer Lowers <b>Starting from Rs.799/-</b></p>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <br>
+                        <a href="lower.html" class="btn btn-primary">Click to explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-2">
+                <div class="card">
+                    <img src="image/shorts/sh1.png" class="card-img-top" alt="imtext">
+                    <div class="card-body">
+                        <h5 class="card-title">ADIDAS</h5>
+                        <p class="card-text">Designer Shorts <b>Starting from Rs.599/-</b></p>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <br>
+                        <a href="shorts.html" class="btn btn-primary">Click to explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-2">
+                <div class="card">
+                    <img src="image/joggers/jg1.png" class="card-img-top" alt="imtext">
+                    <div class="card-body">
+                        <h5 class="card-title">Performax</h5>
+                        <p class="card-text">Designer Joggers<b>Starting from Rs.999/-</b></p>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <i class="fa-solid fa-star" style="color: #e19f2d;"></i>
+                        <br>
+                        <a href="joggers.html" class="btn btn-primary">Click to explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Category Section End -->
+
+    <!-- 2nd Banner Start -->
+    <div class="container-fluid">
+        <div class="row mt-4">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators"></div>
+                <div class="carousel-inner">
+                    <img src="image/Banner/b2.jpg" class="d-block w-100" alt="bnrimg">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="font-size: 50px; color: red;">Enjoy The Shopping</h5>
+                        <p style="font-size: 40px; padding: 30px; ">Have you tried our new # Special product?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2nd Banner End -->
+
+    <!-- Footer Section -->
+    <div class="container bg-secondary">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 ATTIRE, Inc</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ">
+                <a class="m-3" href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                <a class="m-3" href="https://twitter.com/"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                <a class="m-3" href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            </ul>
+        </footer>
+    </div>
+    <!-- Footer Section -->
+
+    <!-- BOOTSTRAP SCRIPT LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+    <!-- My JS File link -->
+    <script src="myscript.js"></script>
+    
+    
+</body>
+</html>
